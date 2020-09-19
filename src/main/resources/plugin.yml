@@ -1,0 +1,8 @@
+name: Dawn
+version: @version@
+main: cx.rain.mc.bukkit.dawn.Dawn
+api-version: 1.16
+prefix: Dawn
+load: STARTUP
+authors: [ AmemiyaShigure ]
+description: A bukkit plugin with some little ideas.
