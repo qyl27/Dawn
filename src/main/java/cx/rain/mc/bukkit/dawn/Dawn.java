@@ -3,13 +3,13 @@ package cx.rain.mc.bukkit.dawn;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Dawn extends JavaPlugin {
-    public static Dawn INSTANCE = null;
+    private static Dawn INSTANCE = null;
 
     @Override
     public void onEnable() {
         // Plugin startup logic
         INSTANCE = this;
-        getLogger().info("Yes, I am worked.");
+        getLogger().info("Yes, I am working.");
     }
 
     @Override
